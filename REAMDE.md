@@ -1,1 +1,59 @@
 ⚡️ 플투 서버 ⚡️
+
+### 프로젝트 구조
+* config
+  * dbConfig.js
+  * index.js
+* constant
+  * jwt.js
+  * responseMessage.js
+  * statusCode.js
+* controller
+  * authController.js
+  * crewController.js
+  * index.js
+  * lightController.js
+  * messageController.js
+  * scrapController.js
+  * userController.js
+* db
+  * authDao.js
+  * crewDao.js
+  * crewUserDao.js
+  * index.js
+  * lightDao.js
+  * lightUserDao.js
+  * messageDao.js
+  * scrapDao.js
+  * userDao.js
+* lib
+  * applyKoreanTime.js
+  * calculateAge.js
+  * convertSnakeToCamel.js
+  * createCrewCode.js
+  * jwtHandler.js
+  * util.js
+* loaders
+  * db.js
+* middlewares
+  * jwtAuthorization.js
+  * multer.js
+* router
+  * authAPI.js
+  * crewAPI.js
+  * index.js
+  * lightAPI.js
+  * messageAPI.js
+  * scrapAPI.js
+  * userAPI.js
+* service
+  * authService.js
+  * crewService.js
+  * index.js
+  * lightService.js
+  * messageService.js
+  * scrapService.js
+  * userService.js
+* index.js
+* package-lock.json
+* package.json
